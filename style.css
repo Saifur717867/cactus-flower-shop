@@ -50,25 +50,11 @@ body{
 }
  /* end the banner section  */
  /* feature section start  */
- /* .feature-container{
-    width: 80%;
-    margin: 0 auto;
-    padding: 100px 0;
-    text-align: center; 
- }
- 
- 
 
- 
-
-.photo{
-    height: 438px;
-    padding: 100px 70px 0px 70px; 
-} */
 .feature-container{
     width: 80%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 80px 0 50px;
     text-align: center; 
  }
  .feature-container h3{
@@ -78,7 +64,7 @@ body{
  .feature-img h4{
     text-decoration: underline;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .feature-content{
     display: flex;
@@ -103,5 +89,24 @@ body{
  .photo{
     height: 438px;
     padding: 50px 30px 0px 30px; 
-   
 }
+/* delivery section starts  */
+.delivery-container{
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px 0px; 
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.delivery-content{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.delivery h4{
+    margin-top: 15px;
+    color: #272727CC;
+}
+/* delivery section end  */
