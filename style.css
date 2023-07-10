@@ -4,7 +4,7 @@
 }
 body{
     color: #272727;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 900, 400;
     line-height: normal;
@@ -24,7 +24,7 @@ body{
    
 }
 .banner-description h1{
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 60px;
     font-weight: bolder;
 }
@@ -49,3 +49,34 @@ body{
     margin-left: 20px;
 }
  /* end the banner section  */
+ /* feature section start  */
+ .feature-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center; 
+ }
+ .feature-container h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+ .feature-content{
+    display: flex;
+    padding: 25px 0;
+    justify-content: center;
+    
+ }
+
+ .feature-pic{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+ }
+.feature-img h4{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.photo{
+    height: 438px;
+    padding: 100px 70px 0px 70px; 
+}
