@@ -3,5 +3,49 @@
     margin: 0;
 }
 body{
+    color: #272727;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 900, 400;
+    line-height: normal;
+}
+.container{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding-top: 50px;
     
 }
+.banner-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    align-items: center;
+   
+}
+.banner-description h1{
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.banner-description p{
+    padding: 20px 0; 
+}
+.btn{
+    padding: 20px 43px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: red;
+}
+.banner-img{
+    width: 100%;
+    margin-left: 20px;
+}
+ /* end the banner section  */
