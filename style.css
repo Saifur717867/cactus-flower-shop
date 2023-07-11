@@ -12,6 +12,7 @@ body{
 p{
     font-size: 16px;
     color: #27272799;
+    line-height: 25px;
 }
 .container{
     background-color: rgba(229, 84, 115, 0.10);
@@ -57,7 +58,7 @@ p{
  /* feature section start  */
 
 .feature-container{
-    width: 80%;
+    
     margin: 0 auto;
     padding: 80px 0 50px;
     text-align: center; 
@@ -147,11 +148,11 @@ p{
 }
 /* deal section end  */
 /* social media section start  */
-.social-container{
+.social-content{
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    padding: 80px 0 0;
+    padding: 80px 0;
 }
 .social-content h3{
     font-weight: 900;
@@ -163,13 +164,13 @@ p{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding: 35px 0 0; 
+    padding: 35px 0; 
 }
-.photo{
+.photo2{
     margin: 0;
     padding: 0;
 }
-.photo img{
+.photo2 img{
     width: 100%; 
 }
 /* end the social section  */
@@ -223,6 +224,7 @@ input[type=email] {
     color: white;
     padding: 15px 0;
   }
+  /* footer section end  */
 
 
 
