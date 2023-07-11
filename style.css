@@ -151,7 +151,7 @@ p{
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    padding: 80px 0;
+    padding: 80px 0 0;
 }
 .social-content h3{
     font-weight: 900;
@@ -163,7 +163,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding: 35px 0; 
+    padding: 35px 0 0; 
 }
 .photo{
     margin: 0;
@@ -173,7 +173,35 @@ p{
     width: 100%; 
 }
 /* end the social section  */
-
+/* start newslatter section  */
+.news-container{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('./images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+.newslatter h2{
+    font-weight: 900;
+    padding-bottom: 25px;
+}
+.subcription{
+    padding-top: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+input[type=email] {
+    width: 50%;
+    padding: 19px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  /* end the newslatter section  */
 
 
 
