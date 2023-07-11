@@ -110,3 +110,33 @@ body{
     color: #272727CC;
 }
 /* delivery section end  */
+/* deal section start  */
+.deal{
+    background-color: #E554730D;
+    padding: 50px 0;
+    margin: 120px 0;
+}
+.deal-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.deal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.deal-left{
+    
+}
+.color-red span{
+    color: #E55473;
+}
+.deal-left p{
+    padding: 20px 0;
+}
+.deal-right img{
+    width: 100%; 
+}
+/* deal section end  */
